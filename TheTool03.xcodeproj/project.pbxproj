@@ -14,6 +14,7 @@
 		DE193E3B2A986BFE006D341D /* MessageLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193E3A2A986BFE006D341D /* MessageLogger.swift */; };
 		DE193E3D2A9913D2006D341D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193E3C2A9913D2006D341D /* MessageView.swift */; };
 		DE193E412A998509006D341D /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193E402A998509006D341D /* AddButtonView.swift */; };
+		DE3D51F72AEEED8000A32D92 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE3D51F62AEEED8000A32D92 /* README.md */; };
 		DEC2AB342AA96FBA002ABE4E /* BackgroundGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2AB332AA96FBA002ABE4E /* BackgroundGrid.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		DE193E3A2A986BFE006D341D /* MessageLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLogger.swift; sourceTree = "<group>"; };
 		DE193E3C2A9913D2006D341D /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		DE193E402A998509006D341D /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		DE3D51F62AEEED8000A32D92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DEC2AB332AA96FBA002ABE4E /* BackgroundGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		DE193E292A986B98006D341D /* TheTool03 */ = {
 			isa = PBXGroup;
 			children = (
+				DE3D51F62AEEED8000A32D92 /* README.md */,
 				DE193E2A2A986B98006D341D /* TheTool03App.swift */,
 				DE193E2C2A986B98006D341D /* ContentView.swift */,
 				DEC2AB332AA96FBA002ABE4E /* BackgroundGrid.swift */,
@@ -107,7 +110,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					DE193E262A986B98006D341D = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D51F72AEEED8000A32D92 /* README.md in Resources */,
 				DE193E322A986B99006D341D /* Preview Assets.xcassets in Resources */,
 				DE193E2F2A986B99006D341D /* Assets.xcassets in Resources */,
 			);
@@ -197,6 +201,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -257,6 +262,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

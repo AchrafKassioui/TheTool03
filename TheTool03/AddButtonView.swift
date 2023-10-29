@@ -30,7 +30,7 @@ struct AddButtonView: View {
 				// This will be triggered if the view is simply tapped (and not dragged)
 				if !isDragging {
 					print("Button was tapped!")
-					// Trigger your floating menu display logic here
+					// Trigger floating menu display logic here
 				}
 			}
 		
