@@ -4,7 +4,7 @@ SpriteKit and SwiftUI experiment. Spawn rotating squares on a SpriteKit scene by
 
 ## Screenshot
 
-<img width="337" alt="Screenshot of an iPhone 13 with multiple red squares on a gray background" src="https://github.com/AchrafKassioui/TheTool03/assets/1216689/1d45fc83-e8cc-4632-8294-d4fd6df4aa0f">
+<img width="337" alt="Screenshot of an iPhone 13 with multiple red squares on a gray background" src="https://github.com/AchrafKassioui/TheTool03/assets/1216689/993f42d5-f7d4-4d0b-b0d0-49b3b36649e6">
 
 ## Features
 
