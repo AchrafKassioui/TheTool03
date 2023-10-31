@@ -45,6 +45,7 @@
 		DE193E1E2A986B98006D341D = {
 			isa = PBXGroup;
 			children = (
+				DE3D51F62AEEED8000A32D92 /* README.md */,
 				DE193E292A986B98006D341D /* TheTool03 */,
 				DE193E282A986B98006D341D /* Products */,
 			);
@@ -61,7 +62,6 @@
 		DE193E292A986B98006D341D /* TheTool03 */ = {
 			isa = PBXGroup;
 			children = (
-				DE3D51F62AEEED8000A32D92 /* README.md */,
 				DE193E2A2A986B98006D341D /* TheTool03App.swift */,
 				DE193E2C2A986B98006D341D /* ContentView.swift */,
 				DEC2AB332AA96FBA002ABE4E /* BackgroundGrid.swift */,
